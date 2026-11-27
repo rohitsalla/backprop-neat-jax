@@ -4,7 +4,13 @@
 
 This repository implements a feedforward, Lamarckian NEAT variant from scratch. It includes historical innovation tracking, aligned crossover, persistent species, fitness sharing, stagnation handling, structural mutation, and batched JAX/Optax training. It is an educational research implementation, not an exact reproduction of the original NEAT experiments.
 
-See the [executed examples](examples/README.md) for measured results, saved models, exact data, and generated plots. The XOR demonstration achieved **95.7% held-out accuracy** with six evolved hidden nodes, and Circle achieved **96.3%** with five (seed 42; task-specific budgets). These are demonstrations, not multi-seed evidence of superiority.
+See the [executed examples](examples/README.md) for measured results, saved models, exact data, and generated plots. These are single-seed demonstrations (seed 42; task-specific budgets), not multi-seed evidence of superiority.
+
+| Task | Held-out test accuracy | Evolved hidden nodes | Enabled connections |
+| --- | --- | --- | --- |
+| XOR | 95.7% | 6 | 13 |
+| Circle | 96.3% | 5 | 17 |
+| Spiral | 99.7% | 6 | 17 |
 
 ![Learned XOR decision boundary](examples/results/xor/decision_boundary.png)
 
