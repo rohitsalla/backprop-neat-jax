@@ -1,0 +1,11 @@
+{
+  "task": "xor",
+  "population_size": 6,
+  "generations": 4,
+  "train_steps": 8,
+  "max_nodes": 10,
+  "fixed_hidden": 4,
+  "train_size": 32,
+  "val_size": 16,
+  "test_size": 32
+}

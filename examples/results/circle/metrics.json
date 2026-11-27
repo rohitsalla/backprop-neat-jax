@@ -1,0 +1,13 @@
+{
+  "train_loss": 0.07048991322517395,
+  "train_accuracy": 0.966796875,
+  "val_loss": 0.0502668172121048,
+  "val_accuracy": 0.984375,
+  "test_loss": 0.09769053012132645,
+  "test_accuracy": 0.962890625,
+  "selected_generation": 39,
+  "hidden_nodes": 5,
+  "enabled_connections": 17,
+  "total_connection_genes": 19,
+  "elapsed_seconds": 152.9778027079883
+}

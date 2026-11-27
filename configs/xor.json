@@ -1,0 +1,9 @@
+{
+  "task": "xor",
+  "seed": 42,
+  "population_size": 24,
+  "generations": 30,
+  "train_steps": 80,
+  "max_nodes": 24,
+  "noise": 0.03
+}

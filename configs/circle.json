@@ -1,0 +1,12 @@
+{
+  "task": "circle",
+  "seed": 42,
+  "population_size": 32,
+  "generations": 40,
+  "train_steps": 100,
+  "max_nodes": 32,
+  "train_size": 512,
+  "val_size": 256,
+  "test_size": 1024,
+  "noise": 0.03
+}

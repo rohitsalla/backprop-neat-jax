@@ -1,0 +1,14 @@
+{
+  "python": "3.13.5",
+  "platform": "macOS-26.2-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "jax": "0.12.1",
+    "jaxlib": "0.12.1",
+    "optax": "0.2.9",
+    "numpy": "2.5.5",
+    "matplotlib": "3.11.2"
+  },
+  "devices": [
+    "cpu:0"
+  ]
+}

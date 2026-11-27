@@ -1,0 +1,15 @@
+{
+  "task": "spiral",
+  "seed": 42,
+  "population_size": 48,
+  "generations": 80,
+  "train_steps": 120,
+  "max_nodes": 40,
+  "train_size": 768,
+  "val_size": 256,
+  "test_size": 1024,
+  "learning_rate": 0.02,
+  "add_node_rate": 0.5,
+  "add_connection_rate": 0.8,
+  "noise": 0.02
+}
